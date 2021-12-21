@@ -16,6 +16,6 @@ jobs:
         env:
           TEST_NAME: Scarlett
         with:
-          bootstrap: FrontEnd/mini-inventory-and-sales-management-system/vendor/autoload.php
-          configuration: FrontEnd/mini-inventory-and-sales-management-system/test/phpunit.xml
+          bootstrap: vendor/autoload.php
+          configuration: test/phpunit.xml
           args: --coverage-text
